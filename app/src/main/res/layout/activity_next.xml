@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tobeisun.move.Next">
+
+    <Button
+        android:id="@+id/buttonfact"
+        android:layout_width="137dp"
+        android:layout_height="64dp"
+        android:text="FACTORIAL"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="262dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hapticFeedbackEnabled="true"
+        android:hint="Enter a number"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="192dp"
+        android:layout_height="44dp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="267dp" />
+</android.support.constraint.ConstraintLayout>
