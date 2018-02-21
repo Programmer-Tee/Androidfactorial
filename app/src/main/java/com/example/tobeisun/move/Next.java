@@ -20,7 +20,7 @@ public class Next extends AppCompatActivity {
 
         number= (EditText) findViewById(R.id.editText1) ;
         result = (TextView) findViewById(R.id.textViewResult) ;
-        fact = (Button) findViewById(R.id.buttonNext);
+        fact = (Button) findViewById(R.id.buttonfact);
 
 
      fact.setOnClickListener(new View.OnClickListener() {
