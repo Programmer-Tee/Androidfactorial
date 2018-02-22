@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Next extends AppCompatActivity {
     EditText number ;
@@ -23,12 +24,18 @@ public class Next extends AppCompatActivity {
         fact = (Button) findViewById(R.id.buttonfact);
 
 
+
      fact.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View view) {
              calculatefact();
          }
      });
+        if(number==null)
+        {
+            Toast error =Toast.makeText(Next.this,"please enter a number",Toast.LENGTH_SHORT);
+            error.show();
+        }
 
     }
 
@@ -46,4 +53,6 @@ public class Next extends AppCompatActivity {
 
           result.setText(String.valueOf(answer));
     }
+
+
 }
