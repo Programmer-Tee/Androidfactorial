@@ -11,8 +11,8 @@ Button btn ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_move);
+        super.onCreate(savedInstanceState);setContentView(R.layout.activity_move);
+
 
 
         btn=(Button) findViewById(R.id.buttonNext) ;
